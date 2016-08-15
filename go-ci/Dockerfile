@@ -1,6 +1,7 @@
 FROM alpine
 
 RUN apk add --update git
+RUN apk add --update alpine-sdk
 RUN apk add --update go
 RUN rm -rf /var/cache/apk/*
 
