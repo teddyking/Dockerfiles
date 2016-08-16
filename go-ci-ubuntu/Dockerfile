@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update
-RUN apt-get -y install git wget
+RUN apt-get -y install git wget build-essential
 RUN cd /usr/local && \
   wget https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz && \
   tar -zxf go1.7.linux-amd64.tar.gz
