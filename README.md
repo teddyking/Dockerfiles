@@ -10,6 +10,6 @@ A collection of Dockerfiles that I use sometimes.
   * Includes go, ginkgo, gomega, godep and golint.
 * go-ci-ubuntu - A largeish image used for running CI of Go programs.
   * FROM ubuntu.
-  * Includes build-essential
+  * Includes build-essential, iptables and wget.
   * Includes go, ginkgo, gomega, godep and golint.
 
