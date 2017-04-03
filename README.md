@@ -12,4 +12,6 @@ A collection of Dockerfiles that I use sometimes.
   * FROM ubuntu.
   * Includes build-essential, iptables and wget.
   * Includes go, ginkgo, gomega, godep and golint.
-
+* ubuntu - A 'standard' ubuntu image with go only
+  * FROM ubuntu 14.04.5
+  * Includes go, ginkgo and gomega
